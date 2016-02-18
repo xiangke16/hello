@@ -12,6 +12,6 @@ public class HelloTest {
 
     @Test
     public void testYou() throws Exception {
-        assertTrue("me".equals("me"));
+        assertTrue("you".equals("you"));
     }
 }
