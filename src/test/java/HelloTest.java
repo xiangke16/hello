@@ -19,6 +19,6 @@ public class HelloTest {
 
     @Test
     public void testReport() {
-        assertTrue(2 == 2);
+        assertTrue(12 == 12);
     }
 }
