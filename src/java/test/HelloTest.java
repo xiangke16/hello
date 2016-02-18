@@ -15,4 +15,9 @@ public class HelloTest {
         String you = "you2";
         assertTrue(you.equals(you));
     }
+
+    @Test
+    public void testReport() {
+        assertTrue(2 == 2);
+    }
 }
