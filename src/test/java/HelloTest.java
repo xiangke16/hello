@@ -13,7 +13,7 @@ public class HelloTest {
 
     @Test
     public void testYou() throws Exception {
-        String you = "you2";
+        String you = "you21";
         assertTrue(you.equals(you));
     }
 
