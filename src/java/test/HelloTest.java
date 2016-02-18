@@ -12,6 +12,7 @@ public class HelloTest {
 
     @Test
     public void testYou() throws Exception {
-        assertTrue("you".equals("you"));
+        String you = "you";
+        assertTrue(you.equals(you));
     }
 }
