@@ -10,4 +10,8 @@ public class HelloTest {
         assertTrue(1 == 1);
     }
 
+    @Test
+    public void testYou() throws Exception {
+        assertTrue("you".equals("you"));
+    }
 }
