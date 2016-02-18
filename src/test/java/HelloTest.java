@@ -4,7 +4,7 @@ import static org.junit.Assert.assertTrue;
 
 public class HelloTest {
     String user = "me";
-    
+
     @Test
     public void testMe() {
         System.out.println("What am I going to say?");

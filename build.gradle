@@ -12,3 +12,11 @@ dependencies {
 task wrapper(type: Wrapper) {
     gradleVersion = '2.10'
 }
+
+sourceSets {
+    test {
+        java {
+            srcDir 'src/test'
+        }
+    }
+}
